@@ -1,0 +1,17 @@
+{
+  "minimum-stability": "dev",
+    "prefer-stable": true,
+  "require": {
+      "brainlabs/gmailer": "dev-master",
+      "brainlabs/credulous": "dev-master"
+  },
+  "repositories": [
+  {
+    "type": "vcs",
+    "url": "https://github.com/Brainlabs-Digital/gmailer"
+  },
+  {
+    "type": "vcs",
+    "url": "https://github.com/Brainlabs-Digital/credulous"
+  }]
+}
