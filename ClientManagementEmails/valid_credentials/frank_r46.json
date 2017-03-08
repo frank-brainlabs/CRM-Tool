@@ -1,0 +1,19 @@
+{
+    "installed": {
+        "client_id": "824533424351-45bvf4g10pijecn4ieoeb7g3sk85nltt.apps.googleusercontent.com",
+        "project_id": "crm-tool",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://accounts.google.com/o/oauth2/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret": "tlovVnFQoTY2VBJLnNekTRi3",
+        "redirect_uris": [
+            "urn:ietf:wg:oauth:2.0:oob",
+            "http://localhost"
+        ]
+    },
+    "access_token": "ya29.GlvmAxtZiHFfKxtxpi9d2FcvckFcrNPBXqPTdngyhuJ6aSVvztRdiqSh8jbkB8ZbSf9WXIV8R0oeYzhezH4W3WAWCwq5c_TVVw9Xm7P28Kj-QFp5hHMMuS-cfwo8",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "refresh_token": "1/s0q-necTV2gxDQP2hWc8YAojXnHfaIyQAaiYk0udxMQ",
+    "created": 1486030359
+}

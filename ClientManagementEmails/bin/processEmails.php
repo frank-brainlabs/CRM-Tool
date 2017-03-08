@@ -14,7 +14,7 @@ function main($argv){
 	$emails = getEmails($emailsFilePath);
 	print_r("got emails");
 
-	$credentialsDir = __DIR__ . "/../credentials/";
+	$credentialsDir = __DIR__ . "/../valid_credentials/";
 	$credentials = $argv[1];
 	$creds = $credentialsDir . $credentials;
 	$credentialsName = join('_', explode('.', $credentials, -1));
@@ -34,7 +34,7 @@ function main($argv){
 	print_r("Total Execution Time: ".$totalExecutionTime." Mins on " . $credentials . "\n");
 
 	outputToCsv($credentialsName, $finalList, $dateRanges);
-	print_r("outputed to csv")
+	print_r("outputed to csv");
 }
 
 

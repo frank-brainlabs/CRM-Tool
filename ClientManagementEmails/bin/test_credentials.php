@@ -5,8 +5,11 @@ date_default_timezone_set("Europe/London");
 
 use Brainlabs\Gmailer\Gmailer;
 
-$credentialsDir = __DIR__ . "/../credentials/";
-$credentials = array_diff(scandir($credentialsDir), array('..', '.'));
+$allCredentialsDir = __DIR__ . "/../all_credentials/";
+$credentials = array_diff(scandir($allCredentialsDir), array('..', '.'));
+
+$validCredentialsDir = __DIR__ . "/../valid_credentials/";
+array_map('unlink', glob($validCredentialsDir . "*"));
 
 $borked_credentials = array();
 
@@ -17,8 +20,14 @@ foreach ($credentials as $creds) {
 	$removeJson = join('_', explode('.', $creds, -1));
 	$credentialName = join('.', explode('_', $removeJson));
 	try {
-		$gmailer = new Gmailer($credentialsDir.$creds);
+		$gmailer = new Gmailer($allCredentialsDir.$creds);
 		$gmailer->queryMessages('newer_than:1d');
+		$file = $allCredentialsDir.$creds;
+		$newFile = $validCredentialsDir.$creds;
+
+		if (!copy($file, $newFile)) {
+    		echo "failed to copy $file " . $file . "\n";
+		}
 	} catch (Exception $e) {
 		$borked_credentials[$credentialName] = $e->getMessage();
 	}

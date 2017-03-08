@@ -64,7 +64,7 @@ ana.iliejitianu@deliveroo.co.uk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 giacomo.giussani@deliveroo.co.uk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 olivia.paufique@deliveroo.co.uk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 sabrina.karavla@deliveroo.de,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-*@expedia.com,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+*@expedia.com,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
 yvarty@expedia.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 jmoran@expedia.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Akhra.Amin@jdplc.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -72,9 +72,9 @@ Akhra.Amin@jdplc.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Hayley.Tillson@dominos.co.uk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Kathy.Connolly@dominos.co.uk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Nick.Moore@dominos.co.uk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-*@hostelworld.com,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+*@hostelworld.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 niall.walsh@hostelworld.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Juan.Perez@hostelworld.com,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Juan.Perez@hostelworld.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 lena.vasileiadou@hostelworld.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 corinne.ferguson@hostelworld.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 *@simplybusiness.co.uk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -84,6 +84,11 @@ christophe.honore@simplybusiness.co.uk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 *@ig.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Alex.Crowley@ig.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Manuel.DelAguilaBarbero@ig.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+David.Spring@ig.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Laurence.Hurwitz-Bremner@ig.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Vinay.Ranganath@ig.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hiroko.Okawara@ig.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Micaela.Lizardo@ig.com,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 *@schuh.co.uk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Kieran@schuh.co.uk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Clair@schuh.co.uk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
